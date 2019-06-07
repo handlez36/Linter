@@ -1,0 +1,24 @@
+{
+"extends": "rallycoding",
+"parserOptions": {
+       "ecmaVersion": 6,
+       "sourceType": "module",
+       "ecmaFeatures": {
+           "jsx": true,
+           "modules": true,
+           "experimentalObjectRestSpread": true
+       }
+  },
+"rules": {
+  "no-extra-semi": 1,
+  "arrow-body-style": 0
+  },
+ "settings": {
+   "import/resolver": {
+     "node": {
+       "paths": ["src"],
+       "extensions": [".js", ".jsx", ".ts", ".tsx"]
+     }
+   }
+ }
+}

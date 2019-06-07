@@ -1,0 +1,3 @@
+rootProject.name = 'vamos2'
+
+include ':app'
